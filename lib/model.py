@@ -7,6 +7,7 @@ convention = {
 }
 metadata = MetaData(naming_convention=convention)
 
+# engine = create_engine('sqlite:///migrations_test.db')
 Base = declarative_base(metadata=metadata)
 
 class Restaurant(Base):
